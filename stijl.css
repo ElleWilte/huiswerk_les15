@@ -1,0 +1,52 @@
+body{
+  font-family: Verdana, sans-serif;
+  background-color: lightyellow;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body, header, footer{
+padding: 5px;
+}
+ul a{
+color: white;
+text-decoration: none;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 160px;
+padding: 12px;
+text-align: center;
+color: white;
+background-color: olive;
+}
+li:hover{
+background-color: lightgreen;
+border-style: none;
+}
+h1{margin-left: 200px;}
+div{
+width: 540px;}
+table{border-collapse: collapse;}
+td{padding-right: 20px;}
+input[type="text"], input[type="email"], input[type="tel"], textarea, button{
+display: block;
+margin: 15px 0px;
+width: 400px;
+box-sizing: border-box;
+}
+textarea{
+height: 200px;
+background-color: lightblue;
+padding: 5px 4px;
+}
+button:active{
+background-color: lightgreen;
+color: orange;
+}
+img{
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+}
